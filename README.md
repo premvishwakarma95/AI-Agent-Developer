@@ -81,7 +81,7 @@ Learn:
 ---
 
 ### BullMQ
-
+BullMQ is a powerful job queue library for Node.js built on top of Redis.  
 Learn:
 
 * Background Jobs
