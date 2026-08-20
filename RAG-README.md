@@ -14,3 +14,13 @@ flowchart TD
     D --> E[Send question and context to the LLM]
     E --> F[Generate the final answer]
 ```
+
+
+## What is Embedding in RAG?
+An embedding is a numerical representation of text that helps a computer understand its meaning.  
+For example:
+```bash
+"I like programming"
+        ↓
+[0.12, -0.45, 0.78, 0.31, ...]
+```
