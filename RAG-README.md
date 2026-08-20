@@ -95,6 +95,8 @@ Retrieved chunks:
 2. "Carriers with stop_call=true are excluded from dispatch."
 ```
 
+---
+
 ## 4. Reranking.
 The vector database returns chunks that are probably relevant, but their initial order may not be perfect.  
 Reranking means checking the retrieved chunks more carefully and placing the most relevant ones first.  
