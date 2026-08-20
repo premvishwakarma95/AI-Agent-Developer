@@ -110,4 +110,18 @@ This improves accuracy, but adds some latency and cost.
 ---
 
 ## 5. Context injection
-When user asks question then we also insert previous chat context or conversation so this is called context injection.
+When user asks question then we also insert previous chat context or conversation so this is called context injection.  
+
+### Where does the context come from?
+The context comes from your documents through the earlier RAG steps:
+```
+User asks a question
+        ↓
+RAG searches your documents
+        ↓
+RAG retrieves relevant chunks
+        ↓
+Those chunks are added to the prompt
+        ↓
+LLM generates the answer
+```
