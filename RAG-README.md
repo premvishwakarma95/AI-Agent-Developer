@@ -33,7 +33,13 @@ flowchart TD
 
 ---
 
-## What is Embedding in RAG?
+## 1. What is Chunking in RAG?
+Chunking means splitting a large document into smaller pieces called chunks.  
+For example, suppose you have a 100-page MDR API document. Instead of sending the complete document to the AI, you divide it into smaller sections:
+
+---
+
+## 2. What is Embedding in RAG?
 An embedding is a numerical representation of text that helps a computer understand its meaning.  
 For example:
 ```bash
