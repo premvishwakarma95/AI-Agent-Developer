@@ -54,7 +54,7 @@ Why is chunking needed?
 ---
 
 ## 2. What is Embedding in RAG?
-An embedding is a numerical representation of text that helps a computer understand its meaning.  
+An embedding is a numerical representation of text that helps a computer understand its meaning. Embed the Chunk, so after chunking embedding happens.  
 For example:
 ```bash
 "I like programming"
