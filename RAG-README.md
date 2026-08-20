@@ -125,3 +125,4 @@ Those chunks are added to the prompt
         ↓
 LLM generates the answer
 ```
+The step where the retrieved chunks are added to the prompt is called context injection.
