@@ -163,3 +163,20 @@ The office timing is 9:00 AM to 6:00 PM.
 Adding the retrieved information to the prompt before sending it to the LLM is called **context injection**.
 
 > In simple words, RAG finds the relevant information and gives it to the LLM so it can answer the question correctly.
+
+---
+
+## Complete RAG flow
+```mermaid
+flowchart TD
+    A["Documents"] --> B["Split into chunks"]
+    B --> C["Create embeddings"]
+    C --> D["Store in vector database"]
+
+    E["User asks question"] --> F["Create question embedding"]
+    F --> G["Retrieve similar chunks"]
+    D --> G
+    G --> H["Rerank results"]
+    H --> I["Inject best chunks into prompt"]
+    I --> J["LLM generates answer"]
+```
