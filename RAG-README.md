@@ -127,9 +127,8 @@ LLM generates the answer
 ```
 The step where the retrieved chunks are added to the prompt is called context injection.  
 
-### Example:-
-```
-## Context Injection — Simple Example
+
+### Context Injection — Simple Example
 
 Suppose your company document contains this information:
 
@@ -162,5 +161,3 @@ The office timing is 9:00 AM to 6:00 PM.
 Adding the retrieved information to the prompt before sending it to the LLM is called **context injection**.
 
 > In simple words, RAG finds the relevant information and gives it to the LLM so it can answer the question correctly.
-
-```
