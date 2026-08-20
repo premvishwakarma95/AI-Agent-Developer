@@ -104,4 +104,9 @@ A common approach is:
 - Send those chunks and the question to a reranking model.
 - Select the best 3–5 chunks.
 - Pass only those chunks to the LLM.  
+
 This improves accuracy, but adds some latency and cost.
+
+---
+
+## 5. Context injection
