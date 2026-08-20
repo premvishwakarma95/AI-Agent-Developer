@@ -98,9 +98,10 @@ Retrieved chunks:
 ## 4. Reranking.
 The vector database returns chunks that are probably relevant, but their initial order may not be perfect.  
 Reranking means checking the retrieved chunks more carefully and placing the most relevant ones first.  
-A common approach is:
 
+A common approach is:
 - Retrieve 20 possible chunks using fast vector search.
 - Send those chunks and the question to a reranking model.
 - Select the best 3–5 chunks.
 - Pass only those chunks to the LLM.
+This improves accuracy, but adds some latency and cost.
