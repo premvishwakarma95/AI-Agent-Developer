@@ -110,3 +110,4 @@ This improves accuracy, but adds some latency and cost.
 ---
 
 ## 5. Context injection
+When user asks question then we also insert previous chat context or conversation so this is called context injection.
