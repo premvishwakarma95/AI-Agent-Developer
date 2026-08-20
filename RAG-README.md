@@ -85,3 +85,12 @@ Find similar chunk embeddings
       ↓
 Return the most relevant chunks
 ```
+Example:
+```
+User: "How do I prevent future carrier calls?"
+
+Retrieved chunks:
+
+1. "/voice/stop marks the carrier as do-not-call."
+2. "Carriers with stop_call=true are excluded from dispatch."
+```
