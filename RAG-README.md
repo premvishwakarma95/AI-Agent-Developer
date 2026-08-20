@@ -15,6 +15,22 @@ flowchart TD
     E --> F[Generate the final answer]
 ```
 
+## These five things are used at different stages of a RAG system.
+
+```mermaid
+flowchart TD
+    A["Your documents"] --> B["1. Chunking"]
+    B --> C["2. Create embeddings"]
+    C --> D["Store in vector database"]
+
+    E["User asks a question"] --> F["Create question embedding"]
+    F --> G["3. Retrieval pipeline"]
+    D --> G
+    G --> H["4. Reranking"]
+    H --> I["5. Context injection"]
+    I --> J["LLM generates answer"]
+```
+
 ---
 
 ## What is Embedding in RAG?
