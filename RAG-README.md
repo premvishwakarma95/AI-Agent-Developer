@@ -125,4 +125,41 @@ Those chunks are added to the prompt
         ↓
 LLM generates the answer
 ```
-The step where the retrieved chunks are added to the prompt is called context injection.
+The step where the retrieved chunks are added to the prompt is called context injection.  
+Example:-
+```
+## Context Injection — Simple Example
+
+Suppose your company document contains this information:
+
+```text
+Office timing is 9:00 AM to 6:00 PM.
+```
+
+The user asks:
+
+```text
+What is the office timing?
+```
+
+RAG finds the relevant information and adds it to the prompt:
+
+```text
+Context:
+Office timing is 9:00 AM to 6:00 PM.
+
+Question:
+What is the office timing?
+```
+
+The LLM then answers:
+
+```text
+The office timing is 9:00 AM to 6:00 PM.
+```
+
+Adding the retrieved information to the prompt before sending it to the LLM is called **context injection**.
+
+> In simple words, RAG finds the relevant information and gives it to the LLM so it can answer the question correctly.
+
+```
