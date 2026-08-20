@@ -69,3 +69,19 @@ In RAG:
 - The user’s question is also converted into an embedding.
 - The system compares the question’s embedding with the stored embeddings.
 - It retrieves chunks whose meaning is most similar.
+
+---
+
+## 3. Retrieval pipeline.
+A retrieval pipeline is the complete process used to find relevant document chunks for a user’s question.
+```
+User question
+      ↓
+Create question embedding
+      ↓
+Search vector database
+      ↓
+Find similar chunk embeddings
+      ↓
+Return the most relevant chunks
+```
