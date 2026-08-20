@@ -35,7 +35,13 @@ flowchart TD
 
 ## 1. What is Chunking in RAG?
 Chunking means splitting a large document into smaller pieces called chunks.  
-For example, suppose you have a 100-page MDR API document. Instead of sending the complete document to the AI, you divide it into smaller sections:
+For example, suppose you have a 100-page MDR API document. Instead of sending the complete document to the AI, you divide it into smaller sections:  
+
+Why is chunking needed?
+- An LLM has a limited context window.
+- Searching smaller chunks is more accurate.
+- You send only relevant information to the LLM.
+- It reduces token usage and cost.
 
 ---
 
