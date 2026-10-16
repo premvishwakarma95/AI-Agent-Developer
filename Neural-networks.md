@@ -8,5 +8,5 @@
 <img width="1221" height="654" alt="image" src="https://github.com/user-attachments/assets/a92e1703-9caa-46b7-afbf-cdc48bb84d64" />
 
 ## Why Activation Function Used?
-Example:- Tea or Coffee, According to weather we decide should take hot or cold coffee.
+Example:- Tea or Coffee, According to weather we decide should take hot or cold coffee. (Non-linearity
 <img width="1320" height="733" alt="image" src="https://github.com/user-attachments/assets/46319ef5-6df1-437b-ba3a-fc04c6eaad6f" />
