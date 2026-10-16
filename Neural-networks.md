@@ -1,1 +1,7 @@
 # Artificial Neural Networks
+
+## Components.
+- Neurons (Nodes)
+- Layers - (Example - input layer, hidden layer)
+- Connections - (Every Neuron is connected with layer that has (weight, bias) how strong connection it is and which connection do we need to choose depends on weight and bias)
+- Activation function - (this function produce output as we want i mean understandable output)
